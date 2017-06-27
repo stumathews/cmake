@@ -17,7 +17,7 @@ configure_file ( "${PROJECT_SOURCE_DIR}/TutorialConfig.h.in" "${PROJECT_BINARY_D
 include_directories("${PROJECT_BINARY_DIR}")
 
 # Set some user definable options:
-
+option(BUILD_C_LIB "use C library" ON)
 option(USE_MYLIB "use my library functions" ON)
 if(USE_MYLIB)
 	# only include this directory if...
@@ -27,8 +27,12 @@ if(USE_MYLIB)
 	# Set a variable...
 	set (EXTRA_LIBS ${EXTRA_LIBS} MyLibrary)
 endif(USE_MYLIB)
-
+if(NOT BUILD_C_LIB)
 add_executable(Tutorial main.cpp Person.cpp Person.h)
+endif(NOT BUILD_C_LIB)
+if(BUILD_C_LIB)
+add_executable(Tutorial main.c)
+endif(BUILD_C_LIB)
 # Link in the libraries...
 target_link_libraries(Tutorial ${EXTRA_LIBS})
 # add the install targets, namely the Tutorial executable

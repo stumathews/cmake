@@ -5,3 +5,4 @@
 #cmakedefine HAVE_LOG
 #cmakedefine HAVE_EXP
 #cmakedefine HAVE_PRINTF
+#cmakedefine BUILD_C_LIB

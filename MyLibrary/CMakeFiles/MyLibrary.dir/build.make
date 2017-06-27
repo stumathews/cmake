@@ -57,41 +57,41 @@ include MyLibrary/CMakeFiles/MyLibrary.dir/progress.make
 # Include the compile flags for this target's objects.
 include MyLibrary/CMakeFiles/MyLibrary.dir/flags.make
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o: MyLibrary/CMakeFiles/MyLibrary.dir/flags.make
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o: MyLibrary/mylibrary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smathews/Documents/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o"
-	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MyLibrary.dir/mylibrary.c.o   -c /home/smathews/Documents/cmake/MyLibrary/mylibrary.c
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o: MyLibrary/CMakeFiles/MyLibrary.dir/flags.make
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o: MyLibrary/mylibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smathews/Documents/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o"
+	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyLibrary.dir/mylibrary.cpp.o -c /home/smathews/Documents/cmake/MyLibrary/mylibrary.cpp
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyLibrary.dir/mylibrary.c.i"
-	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/smathews/Documents/cmake/MyLibrary/mylibrary.c > CMakeFiles/MyLibrary.dir/mylibrary.c.i
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyLibrary.dir/mylibrary.cpp.i"
+	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smathews/Documents/cmake/MyLibrary/mylibrary.cpp > CMakeFiles/MyLibrary.dir/mylibrary.cpp.i
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyLibrary.dir/mylibrary.c.s"
-	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/smathews/Documents/cmake/MyLibrary/mylibrary.c -o CMakeFiles/MyLibrary.dir/mylibrary.c.s
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyLibrary.dir/mylibrary.cpp.s"
+	cd /home/smathews/Documents/cmake/MyLibrary && /usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smathews/Documents/cmake/MyLibrary/mylibrary.cpp -o CMakeFiles/MyLibrary.dir/mylibrary.cpp.s
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.requires:
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.requires:
 
-.PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.requires
+.PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.requires
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.provides: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.requires
-	$(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.provides.build
-.PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.provides
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.provides: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.requires
+	$(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.provides.build
+.PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.provides
 
-MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.provides.build: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o
+MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.provides.build: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o
 
 
 # Object files for target MyLibrary
 MyLibrary_OBJECTS = \
-"CMakeFiles/MyLibrary.dir/mylibrary.c.o"
+"CMakeFiles/MyLibrary.dir/mylibrary.cpp.o"
 
 # External object files for target MyLibrary
 MyLibrary_EXTERNAL_OBJECTS =
 
-MyLibrary/libMyLibrary.a: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o
+MyLibrary/libMyLibrary.a: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o
 MyLibrary/libMyLibrary.a: MyLibrary/CMakeFiles/MyLibrary.dir/build.make
 MyLibrary/libMyLibrary.a: MyLibrary/CMakeFiles/MyLibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smathews/Documents/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libMyLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smathews/Documents/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMyLibrary.a"
 	cd /home/smathews/Documents/cmake/MyLibrary && $(CMAKE_COMMAND) -P CMakeFiles/MyLibrary.dir/cmake_clean_target.cmake
 	cd /home/smathews/Documents/cmake/MyLibrary && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyLibrary.dir/link.txt --verbose=$(VERBOSE)
 
@@ -100,7 +100,7 @@ MyLibrary/CMakeFiles/MyLibrary.dir/build: MyLibrary/libMyLibrary.a
 
 .PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/build
 
-MyLibrary/CMakeFiles/MyLibrary.dir/requires: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o.requires
+MyLibrary/CMakeFiles/MyLibrary.dir/requires: MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o.requires
 
 .PHONY : MyLibrary/CMakeFiles/MyLibrary.dir/requires
 

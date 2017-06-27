@@ -204,32 +204,32 @@ MyLibrary/fast:
 	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/build
 .PHONY : MyLibrary/fast
 
-mylibrary.o: mylibrary.c.o
+mylibrary.o: mylibrary.cpp.o
 
 .PHONY : mylibrary.o
 
 # target to build an object file
-mylibrary.c.o:
-	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.o
-.PHONY : mylibrary.c.o
+mylibrary.cpp.o:
+	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.o
+.PHONY : mylibrary.cpp.o
 
-mylibrary.i: mylibrary.c.i
+mylibrary.i: mylibrary.cpp.i
 
 .PHONY : mylibrary.i
 
 # target to preprocess a source file
-mylibrary.c.i:
-	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.i
-.PHONY : mylibrary.c.i
+mylibrary.cpp.i:
+	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.i
+.PHONY : mylibrary.cpp.i
 
-mylibrary.s: mylibrary.c.s
+mylibrary.s: mylibrary.cpp.s
 
 .PHONY : mylibrary.s
 
 # target to generate assembly for a file
-mylibrary.c.s:
-	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.c.s
-.PHONY : mylibrary.c.s
+mylibrary.cpp.s:
+	cd /home/smathews/Documents/cmake && $(MAKE) -f MyLibrary/CMakeFiles/MyLibrary.dir/build.make MyLibrary/CMakeFiles/MyLibrary.dir/mylibrary.cpp.s
+.PHONY : mylibrary.cpp.s
 
 # Help Target
 help:
